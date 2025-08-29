@@ -1,10 +1,25 @@
 🤖 Cloudflare Auto Clicker v1.0 - (File-Based Status)
 <p align="center">
-<img src="https://img.shields.io/badge/Language-C%23-blueviolet?style=for-the-badge" alt="Language C#">
-<img src="https://img.shields.io/badge/.NET-Framework-blue?style=for-the-badge" alt=".NET Framework">
-<img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge" alt="Platform Windows">
-<img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License MIT">
+
+  <!-- Tech Stack -->
+  <img src="https://img.shields.io/badge/Language-C%23-blueviolet?style=for-the-badge" alt="Language C#">
+  <img src="https://img.shields.io/badge/.NET-Framework-blue?style=for-the-badge" alt=".NET Framework">
+  <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge" alt="Platform Windows">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License MIT">
+
+  <!-- Project Info -->
+  <img src="https://img.shields.io/github/stars/MoGLCL/CFBP?style=for-the-badge" alt="Stars">
+  <img src="https://img.shields.io/github/forks/MoGLCL/CFBP?style=for-the-badge" alt="Forks">
+  <img src="https://img.shields.io/github/issues/MoGLCL/CFBP?style=for-the-badge" alt="Issues">
+  <img src="https://img.shields.io/github/last-commit/MoGLCL/CFBP?style=for-the-badge" alt="Last Commit">
+
+  <!-- Extras -->
+  <img src="https://img.shields.io/badge/Made%20with-Love-red?style=for-the-badge" alt="Made with Love">
+  <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen?style=for-the-badge" alt="Maintained Yes">
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="Project Status">
+
 </p>
+
 
 A simple utility that automatically finds a specific checkbox image on the screen, clicks it, and then verifies the action by checking for a success image.
 
