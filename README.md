@@ -1,44 +1,44 @@
-🤖 AutoClicker CloudFlare v1.0 - (File-Based Status)
+🤖 Cloudflare Auto Clicker v1.0 - (File-Based Status)
 <p align="center">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Language-C%2523-blueviolet%3Fstyle%3Dfor-the-badge" alt="Language C#">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/.NET-Framework-blue%3Fstyle%3Dfor-the-badge" alt=".NET Framework">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Platform-Windows-0078D6%3Fstyle%3Dfor-the-badge" alt="Platform Windows">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/License-MIT-green%3Fstyle%3Dfor-the-badge" alt="License MIT">
+<img src="https://img.shields.io/badge/Language-C%23-blueviolet?style=for-the-badge" alt="Language C#">
+<img src="https://img.shields.io/badge/.NET-Framework-blue?style=for-the-badge" alt=".NET Framework">
+<img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge" alt="Platform Windows">
+<img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License MIT">
 </p>
 
-هذا البرنامج هو أداة بسيطة تعمل تلقائيًا للبحث عن صورة معينة (checkbox) على الشاشة، والنقر عليها، ثم التحقق من ظهور صورة أخرى (True image) لتأكيد نجاح العملية.
+A simple utility that automatically finds a specific checkbox image on the screen, clicks it, and then verifies the action by checking for a success image.
 
-⚙️ آلية العمل
-البحث المستمر: يقوم البرنامج بالبحث بشكل مستمر عن إحدى صور checkbox.png أو checkbox2.png على الشاشة.
+⚙️ How It Works
+Continuous Scan: The program constantly scans the screen for either checkbox.png or checkbox2.png.
 
-النقر التلقائي: عند العثور على صورة الـ checkbox، يقوم البرنامج بمحاكاة نقرة الفأرة في منتصف الصورة.
+Auto-Click: Upon finding the checkbox image, it simulates a mouse click in the center of the image.
 
-التحقق من النجاح: بعد النقر، ينتظر البرنامج لمدة 5 ثوانٍ ثم يبحث عن إحدى صور TrueL.png أو TrueD.png.
+Verification: After clicking, it waits for 5 seconds and then scans for a success image (TrueL.png or TrueD.png).
 
-تحديث الحالة:
+Status Update:
 
-إذا تم العثور على صورة "True"، يقوم البرنامج بإنشاء أو تحديث ملف نصي اسمه autoclicker_status.txt ويكتب بداخله كلمة True.
+If a "True" image is found, it creates or updates a file named autoclicker_status.txt with the word True.
 
-إذا لم يتم العثور على صورة "True" (أو لم يتم العثور على checkbox من البداية)، سيتم كتابة كلمة False في الملف.
+If no "True" image is found (or no checkbox was found initially), it writes False to the file.
 
-التكرار: تستمر هذه العملية في حلقة لا نهائية، مما يسمح للبرنامج بالعمل باستمرار في الخلفية.
+Loop: This process runs in an infinite loop, allowing the tool to operate continuously in the background.
 
-🚀 كيفية الاستخدام
-المتطلبات الأساسية
-نظام تشغيل Windows.
+🚀 Getting Started
+Prerequisites
+Windows Operating System.
 
-حزمة .NET Framework.
+.NET Framework.
 
-مكتبة OpenCvSharp4.
+OpenCvSharp4 library.
 
-خطوات التشغيل
-ملفات الصور: تأكد من وجود ملفات الصور (checkbox.png, checkbox2.png, TrueL.png, TrueD.png) في نفس المجلد الذي يوجد به الملف التنفيذي للبرنامج.
+Running the Application
+Image Files: Ensure that the image files (checkbox.png, checkbox2.png, TrueL.png, TrueD.png) are in the same directory as the executable.
 
-التشغيل: قم بتشغيل الملف التنفيذي للبرنامج AutoClicker.exe.
+Launch: Run the AutoClicker.exe executable.
 
-التواصل مع السكريبتات الأخرى: يمكن لأي سكريبت أو برنامج آخر معرفة حالة الـ AutoClicker عن طريق قراءة محتوى ملف autoclicker_status.txt بشكل دوري.
+Inter-Script Communication: Other scripts or applications can determine the clicker's status by periodically reading the contents of autoclicker_status.txt.
 
-📝 ملاحظات
-هذه النسخة تعتمد على عمليات القراءة والكتابة على القرص الصلب (I/O)، والتي قد تكون بطيئة نسبيًا.
+📝 Notes
+This version relies on disk I/O operations, which can be relatively slow.
 
-يجب أن يكون للبرنامج صلاحية للوصول للكتابة في المجلد الذي يعمل فيه لإنشاء ملف الحالة.
+The application requires write permissions in its running directory to create the status file.
