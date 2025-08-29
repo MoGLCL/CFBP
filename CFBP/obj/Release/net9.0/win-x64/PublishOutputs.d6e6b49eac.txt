@@ -1,0 +1,4 @@
+J:\projects\CFBP\CFBP\bin\Release\net9.0\win-x64\app.publish\CFBP.pdb
+J:\projects\CFBP\CFBP\bin\Release\net9.0\win-x64\app.publish\OpenCvSharpExtern.dll
+J:\projects\CFBP\CFBP\bin\Release\net9.0\win-x64\app.publish\opencv_videoio_ffmpeg4110_64.dll
+J:\projects\CFBP\CFBP\bin\Release\net9.0\win-x64\app.publish\CFBP.exe

@@ -1,0 +1,15 @@
+J:\projects\CFBP\CFBP\bin\Release\net9.0\publish\CFBP.exe
+J:\projects\CFBP\CFBP\bin\Release\net9.0\publish\CFBP.dll
+J:\projects\CFBP\CFBP\bin\Release\net9.0\publish\CFBP.deps.json
+J:\projects\CFBP\CFBP\bin\Release\net9.0\publish\CFBP.runtimeconfig.json
+J:\projects\CFBP\CFBP\bin\Release\net9.0\publish\CFBP.pdb
+J:\projects\CFBP\CFBP\bin\Release\net9.0\publish\Microsoft.Win32.SystemEvents.dll
+J:\projects\CFBP\CFBP\bin\Release\net9.0\publish\OpenCvSharp.dll
+J:\projects\CFBP\CFBP\bin\Release\net9.0\publish\OpenCvSharp.Extensions.dll
+J:\projects\CFBP\CFBP\bin\Release\net9.0\publish\System.Drawing.Common.dll
+J:\projects\CFBP\CFBP\bin\Release\net9.0\publish\System.Private.Windows.Core.dll
+J:\projects\CFBP\CFBP\bin\Release\net9.0\publish\runtimes\win\lib\net9.0\Microsoft.Win32.SystemEvents.dll
+J:\projects\CFBP\CFBP\bin\Release\net9.0\publish\runtimes\win-x64\native\OpenCvSharpExtern.dll
+J:\projects\CFBP\CFBP\bin\Release\net9.0\publish\runtimes\win-x64\native\opencv_videoio_ffmpeg4110_64.dll
+J:\projects\CFBP\CFBP\bin\Release\net9.0\publish\runtimes\win-x86\native\OpenCvSharpExtern.dll
+J:\projects\CFBP\CFBP\bin\Release\net9.0\publish\runtimes\win-x86\native\opencv_videoio_ffmpeg4110.dll
